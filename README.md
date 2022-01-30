@@ -11,7 +11,7 @@
   <p align="center">
     An API that enables you to search information regarding the infamous Bored Ape Yacht Club NFTs.
     <br />
-    <a href="https://github.com/rom1trt/crypto-news-bot"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/rom1trt/bayc_subgraph"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/rom1trt/bayc_subgraph">View Demo</a>
