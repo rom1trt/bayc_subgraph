@@ -11,6 +11,7 @@ export function handleTransfer(event: TransferEvent): void {
   var token = Token.load(event.params.tokenId.toString());
    if (!token) {
      token = new Token(event.params.tokenId.toString());
+     token.owner = event.params.to.toHex()
      token.creator = event.params.to.toHexString();
      token.tokenID = event.params.tokenId;
      token.createdAtTimestamp = event.block.timestamp;
@@ -18,7 +19,8 @@ export function handleTransfer(event: TransferEvent): void {
    }
    token.updatedAtTimestamp = event.block.timestamp;
    let tokenContract = TokenContract.bind(event.address);
-   token.price = tokenContract.apePrice()
+   let price = tokenContract.apePrice()
+   token.price = price
    let baseURI = tokenContract.baseURI()
    let contentURI = tokenContract.tokenURI(event.params.tokenId);
  
