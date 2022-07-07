@@ -3,10 +3,9 @@
 <p align="center">
   <a href="https://github.com/rom1trt/bayc_subgraph">
     <img align=top src="bayc_img.jpeg" alt="Logo" width="500" height="300">
-    <img align=top src="https://www.cryptocurrencymarket.uk/coins_images/the-graph/large.png" alt="Logo" width="300" height="300">
   </a>
 
-  <h3 align="center">Bored Ape Yacht Club API (The Graph)</h3>
+  <h3 align="center">Bored Ape Yacht Club API</h3>
 
   <p align="center">
     An API that enables you to search information regarding the infamous Bored Ape Yacht Club NFTs.
@@ -89,11 +88,10 @@
 }
 ```
  
-However, except one or two news' sources, few accounts commented events on a daily basis as well as analyzed technical indicators.
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [The Graph](https://www.thegraph.com/)
-* [GraphQL](https://graphql.org)
+* [![The-Graph](https://img.shields.io/badge/thegraph-purple?style=for-the-badge&logo=thegraph&logoColor=white)](https://www.thegraph.com/)
+* [![GraphQL](https://img.shields.io/badge/graphql-e75480?style=for-the-badge&logo=graphql&logoColor=white)](https://graphql.org)
 
 
